@@ -4,17 +4,17 @@
 
 # Installation
 
-Clone this repository on _~/Sites/degustabox_ with _docker_ name and follow this instructions:
+Clone this repository on _~/Sites_ with _docker_ name and follow this instructions:
 
 ---
 
 1 - Add aliases to your _.bash_profile_ or _.zshrc_:
 
 ```shell
-alias dockerup="~/Sites/degustabox-docker ; docker-compose up mysql nginx php-fpm rabbitmq docker-in-docker redis workspace"
-alias dockerdown="~/Sites/degustabox-docker ; docker-compose down"
-alias dockerbash="~/Sites/degustabox-docker ; docker-compose bash"
-alias dockerbuild="~/Sites/degustabox-docker ; docker-compose build mysql nginx php-fpm rabbitmq docker-in-docker redis workspace"
+alias dockerup="~/Sites/docker ; docker-compose up mysql nginx php-fpm rabbitmq docker-in-docker redis workspace"
+alias dockerdown="~/Sites/docker ; docker-compose down"
+alias dockerbash="~/Sites/docker ; docker-compose bash"
+alias dockerbuild="~/Sites/docker ; docker-compose build mysql nginx php-fpm rabbitmq docker-in-docker redis workspace"
 ```
 
 ---

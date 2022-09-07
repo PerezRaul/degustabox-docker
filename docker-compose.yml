@@ -365,7 +365,7 @@ services:
       networks:
         - backend
 ### PHP Worker Degusta Box ############################################
-    php-worker-degustabox:
+    php-worker-time-tracker:
       build:
         context: ./php-worker
         args:
@@ -402,7 +402,7 @@ services:
           - IMAGEMAGICK_VERSION=${PHP_WORKER_IMAGEMAGICK_VERSION}
       volumes:
         - ${APP_CODE_PATH_HOST}:${APP_CODE_PATH_CONTAINER}${APP_CODE_CONTAINER_FLAG}
-        - ../degustabox/supervisord.d:/etc/supervisord.d
+        - ../time-tracker/supervisord.d:/etc/supervisord.d
       depends_on:
         - workspace
       extra_hosts:
