@@ -1,2 +1,2 @@
 *.conf
-!default.conf
+!task-manager.conf
