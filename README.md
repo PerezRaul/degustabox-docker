@@ -41,6 +41,7 @@ alias dockerbuild="~/Sites/docker ; docker-compose build mysql nginx php-fpm doc
 3 - Build containers and start with the following commands:
 
 ```shell
+> dockerbuild
 > dockerup
 ```
 
